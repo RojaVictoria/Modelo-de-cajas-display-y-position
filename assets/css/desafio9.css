@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    background-color: lightgray;
+    width: 100%;
+    padding: 1em;
+}
+
+.sub {
+    padding: 1em;
+}
+
+.footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}

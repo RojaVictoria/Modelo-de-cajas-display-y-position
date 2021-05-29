@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+/* Bandera de España */
+
+.españa {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.linea {
+  display: block;
+  width: 100%;
+}
+
+.roja {
+  background-color: red;
+  height: 25%;
+}
+
+.amarilla {
+  background-color: yellow;
+  height: 50%;
+}
+
+/* Bandera de Dinamarca */
+
+.dinamarca {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fondo-di {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.cuadro-uno {
+    position: absolute;
+    background-color: red;
+    height: 90px;
+    width: 90px;
+}
+
+.cuadro-dos {
+    position: absolute;
+    background-color: red;
+    height: 90px;
+    width: 90px;
+    bottom: 0;
+}
+
+.rectangulo-uno {
+    position: absolute;
+    background-color: red;
+    height: 90px;
+    width: 190px;
+    right: 0;
+}
+
+.rectangulo-dos {
+    position: absolute;
+    background-color: red;
+    height: 90px;
+    width: 190px;
+    right: 0;
+    bottom: 0;
+}
+
+/* Bandera de Emiratos Árabes */
+
+.emiratos {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.verde {
+    position: absolute;
+    background-color: green;
+    height: 33%;
+}
+
+.blanca {
+    position: absolute;
+    background-color: white;
+    height: 33%;
+    bottom: 33%;
+}
+
+.negra {
+    position: absolute;
+    background-color: black;
+    height: 33%;
+    bottom: 0;
+}
+
+.franja {
+    position: absolute;
+    background-color: red;
+    height: 200px;
+    width: 90px;
+}
+
+/* Bandera de Japón */
+
+.japon {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fondo-ja {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.circulo {
+    background-color: red;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 26%;
+}
